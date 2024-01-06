@@ -1,12 +1,12 @@
 import React from 'react'
-import Profiler from './components'
+import Profiler from './components/export_imports'
 
 export default function App(){
   return (
     
       <div>
-      
-      <h2>Hello</h2>
+
+      <p>Hello</p>
       <Profiler />
       </div>
     
