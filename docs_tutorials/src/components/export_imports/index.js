@@ -1,10 +1,16 @@
 import React from 'react';
-// import { Profile } from './Gallery.js';
+import Gallery from './Gallery.js';
+import Profile  from './Profile.js';
 
 export default function Profiler() {
+  const a = 11 + 3; 
+
   return (
     <>
-    {/* <Profile /> */}
-    <h3>hell0 </h3></>
+    <Profile />
+    <Gallery/>
+    {a}
+    
+    <h3>Export successful from index </h3></>
   );
 }

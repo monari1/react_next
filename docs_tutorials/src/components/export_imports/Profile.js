@@ -1,11 +1,15 @@
 import React from 'react';
 
-export function Profile() {
+export default function Profile() {
     return (
-      <img
+      <div>
+         <img
         src="https://i.imgur.com/QIrZWGIs.jpg"
         alt="Alan L. Hart"
       />
+      <p>Export Successful from Profile</p>
+      </div>
+     
     );
   }
   
